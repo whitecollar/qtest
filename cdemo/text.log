@@ -1,0 +1,535 @@
+
+
+====================================
+Log started, 23/05/2012 04:05:12
+====================================
+
+Done in 0.0278558731079s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:17
+====================================
+
+Done in 0.028324842453s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:19
+====================================
+
+DataProcessor object initialized
+1261152034_id => 1261152034
+1261152034_start_date => 2010-08-04 03:05
+1261152034_end_date => 2010-08-04 10:30
+1261152034_text => New event
+1261152034_!nativeeditor_status => updated
+ids => 1261152034
+
+Row data [1261152034]
+event_id => 1261152034
+start_date => 2010-08-04 03:05
+end_date => 2010-08-04 10:30
+event_name => New event
+!nativeeditor_status => updated
+
+
+
+====================================
+Log started, 23/05/2012 04:05:35
+====================================
+
+Done in 0.0264499187469s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:36
+====================================
+
+DataProcessor object initialized
+1261152034_id => 1261152034
+1261152034_start_date => 2010-08-04 02:50
+1261152034_end_date => 2010-08-04 10:15
+1261152034_text => New event
+1261152034_!nativeeditor_status => updated
+ids => 1261152034
+
+Row data [1261152034]
+event_id => 1261152034
+start_date => 2010-08-04 02:50
+end_date => 2010-08-04 10:15
+event_name => New event
+!nativeeditor_status => updated
+
+Edit operation finished
+0 => action:invalid; sid:1261152034; tid:1261152034;
+
+Done in 0.00823593139648s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:53
+====================================
+
+Done in 0.026820898056s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:54
+====================================
+
+DataProcessor object initialized
+1261152034_id => 1261152034
+1261152034_start_date => 2010-08-04 02:20
+1261152034_end_date => 2010-08-04 09:45
+1261152034_text => New event
+1261152034_!nativeeditor_status => updated
+ids => 1261152034
+
+Row data [1261152034]
+event_id => 1261152034
+start_date => 2010-08-04 02:20
+end_date => 2010-08-04 09:45
+event_name => New event
+!nativeeditor_status => updated
+
+Edit operation finished
+0 => action:invalid; sid:1261152034; tid:1261152034;
+
+Done in 0.00821685791016s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:09
+====================================
+
+Done in 0.0280840396881s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:10
+====================================
+
+DataProcessor object initialized
+1261152034_id => 1261152034
+1261152034_start_date => 2010-08-04 03:00
+1261152034_end_date => 2010-08-04 10:25
+1261152034_text => New event
+1261152034_!nativeeditor_status => updated
+ids => 1261152034
+
+Row data [1261152034]
+event_id => 1261152034
+start_date => 2010-08-04 03:00
+end_date => 2010-08-04 10:25
+event_name => New event
+!nativeeditor_status => updated
+
+Edit operation finished
+0 => action:updated; sid:1261152034; tid:1261152034;
+
+Done in 0.00805282592773s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:12
+====================================
+
+DataProcessor object initialized
+1261152034_id => 1261152034
+1261152034_start_date => 2010-08-05 03:10
+1261152034_end_date => 2010-08-05 10:35
+1261152034_text => New event
+1261152034_!nativeeditor_status => updated
+ids => 1261152034
+
+Row data [1261152034]
+event_id => 1261152034
+start_date => 2010-08-05 03:10
+end_date => 2010-08-05 10:35
+event_name => New event
+!nativeeditor_status => updated
+
+Edit operation finished
+0 => action:updated; sid:1261152034; tid:1261152034;
+
+Done in 0.00828719139099s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:14
+====================================
+
+DataProcessor object initialized
+1261152034_id => 1261152034
+1261152034_start_date => 2010-08-04 01:10
+1261152034_end_date => 2010-08-04 08:35
+1261152034_text => New event
+1261152034_!nativeeditor_status => updated
+ids => 1261152034
+
+Row data [1261152034]
+event_id => 1261152034
+start_date => 2010-08-04 01:10
+end_date => 2010-08-04 08:35
+event_name => New event
+!nativeeditor_status => updated
+
+Edit operation finished
+0 => action:updated; sid:1261152034; tid:1261152034;
+
+Done in 0.00821399688721s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:14
+====================================
+
+Done in 0.0272829532623s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:16
+====================================
+
+DataProcessor object initialized
+1261152034_id => 1261152034
+1261152034_start_date => 2010-08-06 07:30
+1261152034_end_date => 2010-08-06 14:55
+1261152034_text => New event
+1261152034_!nativeeditor_status => updated
+ids => 1261152034
+
+Row data [1261152034]
+event_id => 1261152034
+start_date => 2010-08-06 07:30
+end_date => 2010-08-06 14:55
+event_name => New event
+!nativeeditor_status => updated
+
+Edit operation finished
+0 => action:updated; sid:1261152034; tid:1261152034;
+
+Done in 0.00849413871765s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:17
+====================================
+
+Done in 0.0284140110016s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:47
+====================================
+
+Done in 0.0280730724335s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:48
+====================================
+
+DataProcessor object initialized
+1261152034_id => 1261152034
+1261152034_start_date => 2010-08-03 04:05
+1261152034_end_date => 2010-08-03 11:30
+1261152034_text => New event
+1261152034_!nativeeditor_status => updated
+ids => 1261152034
+
+Row data [1261152034]
+event_id => 1261152034
+start_date => 2010-08-03 04:05
+end_date => 2010-08-03 11:30
+event_name => New event
+!nativeeditor_status => updated
+
+Change new id: 1261152034
+
+Edit operation finished
+0 => action:updated; sid:1261152034; tid:1261152034;
+
+Done in 0.00825905799866s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:49
+====================================
+
+Done in 0.0285151004791s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:51
+====================================
+
+DataProcessor object initialized
+1337777090458_start_date => 2010-08-04 03:40
+1337777090458_end_date => 2010-08-04 09:35
+1337777090458_text => New event
+1337777090458_id => 1337777090458
+1337777090458_!nativeeditor_status => inserted
+ids => 1337777090458
+
+Row data [1337777090458]
+start_date => 2010-08-04 03:40
+end_date => 2010-08-04 09:35
+event_name => New event
+event_id => 1337777090458
+!nativeeditor_status => inserted
+
+Change new id: 1261152035
+
+Edit operation finished
+0 => action:inserted; sid:1337777090458; tid:1261152035;
+
+Done in 0.00619387626648s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:52
+====================================
+
+Done in 0.0278568267822s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:54
+====================================
+
+DataProcessor object initialized
+1261152035_id => 1261152035
+1261152035_start_date => 2010-08-04 03:55
+1261152035_end_date => 2010-08-04 09:50
+1261152035_text => New event
+1261152035_!nativeeditor_status => updated
+ids => 1261152035
+
+Row data [1261152035]
+event_id => 1261152035
+start_date => 2010-08-04 03:55
+end_date => 2010-08-04 09:50
+event_name => New event
+!nativeeditor_status => updated
+
+Change new id: 1261152035
+
+Edit operation finished
+0 => action:updated; sid:1261152035; tid:1261152035;
+
+Done in 0.00847506523132s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:55
+====================================
+
+DataProcessor object initialized
+1261152035_id => 1261152035
+1261152035_start_date => 2010-08-06 03:35
+1261152035_end_date => 2010-08-06 09:30
+1261152035_text => New event
+1261152035_!nativeeditor_status => updated
+ids => 1261152035
+
+Row data [1261152035]
+event_id => 1261152035
+start_date => 2010-08-06 03:35
+end_date => 2010-08-06 09:30
+event_name => New event
+!nativeeditor_status => updated
+
+Change new id: 1261152035
+
+Edit operation finished
+0 => action:updated; sid:1261152035; tid:1261152035;
+
+Done in 0.00855684280396s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:57
+====================================
+
+DataProcessor object initialized
+1337777096691_start_date => 2010-08-05 02:15
+1337777096691_end_date => 2010-08-05 10:25
+1337777096691_text => New event
+1337777096691_id => 1337777096691
+1337777096691_!nativeeditor_status => inserted
+ids => 1337777096691
+
+Row data [1337777096691]
+start_date => 2010-08-05 02:15
+end_date => 2010-08-05 10:25
+event_name => New event
+event_id => 1337777096691
+!nativeeditor_status => inserted
+
+Change new id: 1261152036
+
+Edit operation finished
+0 => action:inserted; sid:1337777096691; tid:1261152036;
+
+Done in 0.00628185272217s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:00
+====================================
+
+DataProcessor object initialized
+1261152036_start_date => 2010-08-04 02:20
+1261152036_end_date => 2010-08-04 10:30
+1261152036_text => New event
+1261152036_id => 1261152036
+1261152036_!nativeeditor_status => updated
+ids => 1261152036
+
+Row data [1261152036]
+start_date => 2010-08-04 02:20
+end_date => 2010-08-04 10:30
+event_name => New event
+event_id => 1261152036
+!nativeeditor_status => updated
+
+Change new id: 1261152036
+
+Edit operation finished
+0 => action:updated; sid:1261152036; tid:1261152036;
+
+Done in 0.00857520103455s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:01
+====================================
+
+Done in 0.0283489227295s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:05
+====================================
+
+DataProcessor object initialized
+1261152036_id => 1261152036
+1261152036_start_date => 2010-08-04 02:20
+1261152036_end_date => 2010-08-04 10:30
+1261152036_text => New event
+1261152036_!nativeeditor_status => deleted
+ids => 1261152036
+
+Row data [1261152036]
+event_id => 1261152036
+start_date => 2010-08-04 02:20
+end_date => 2010-08-04 10:30
+event_name => New event
+!nativeeditor_status => deleted
+
+Change new id: 1261152036
+
+Edit operation finished
+0 => action:deleted; sid:1261152036; tid:1261152036;
+
+Done in 0.00657296180725s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:06
+====================================
+
+Done in 0.0282189846039s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:14
+====================================
+
+Done in 0.0258710384369s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:17
+====================================
+
+DataProcessor object initialized
+1261152035_id => 1261152035
+1261152035_start_date => 2010-08-06 03:35
+1261152035_end_date => 2010-08-06 09:30
+1261152035_text => 
+1261152035_!nativeeditor_status => updated
+ids => 1261152035
+
+Row data [1261152035]
+event_id => 1261152035
+start_date => 2010-08-06 03:35
+end_date => 2010-08-06 09:30
+event_name => 
+!nativeeditor_status => updated
+
+Edit operation finished
+0 => action:invalid; sid:1261152035; tid:1261152035;
+
+Done in 0.00877594947815s
+
+
+
+====================================
+Log started, 23/05/2012 04:05:19
+====================================
+
+Done in 0.0278499126434s
+
+
+
+====================================
+Log started, 23/05/2012 07:05:12
+====================================
+
+Done in 0.0263290405273s
+
+
+
+====================================
+Log started, 23/05/2012 07:05:59
+====================================
+
+Done in 0.0267879962921s
+
+
+
+====================================
+Log started, 23/05/2012 08:05:32
+====================================
+
+Done in 0.00486207008362s
+

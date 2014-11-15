@@ -1,0 +1,842 @@
+2012/05/22 19:07:17 [error] [php] require_once(W:\html\yii\www\cdemo\protected\controllers/../../dhtmlx/connector/db_phpyii.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (W:\html\yii\www\cdemo\protected\controllers\EventController.php:3)
+Stack trace:
+#0 W:\html\yii\www\framework\web\CWebApplication.php(270): CWebApplication->createController()
+#1 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#2 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#3 W:\html\yii\www\cdemo\index.php(13): CWebApplication->run()
+REQUEST_URI=/cdemo/Event/
+in W:\html\yii\www\cdemo\protected\controllers\EventController.php (3)
+in W:\html\yii\www\cdemo\protected\controllers\EventController.php (3)
+in W:\html\yii\www\cdemo\index.php (13)
+2012/05/23 15:33:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "grid".' in W:\html\yii\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('grid')
+#1 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cdemo/grid/
+---
+2012/05/23 15:33:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "grid/event".' in W:\html\yii\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('grid/event')
+#1 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cdemo/grid/event/
+---
+2012/05/23 15:33:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "grid/Event".' in W:\html\yii\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('grid/Event')
+#1 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cdemo/grid/Event/
+---
+2012/05/23 15:35:03 [error] [php] require_once(W:\html\yii\www\cdemo\protected\controllers/../../dhtmlx/connector/grid_connector.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (W:\html\yii\www\cdemo\protected\controllers\EventController.php:2)
+Stack trace:
+#0 W:\html\yii\www\framework\web\CWebApplication.php(270): CWebApplication->createController()
+#1 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#2 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#3 W:\html\yii\www\cdemo\index.php(13): CWebApplication->run()
+REQUEST_URI=/cdemo/event/grid
+in W:\html\yii\www\cdemo\protected\controllers\EventController.php (2)
+in W:\html\yii\www\cdemo\protected\controllers\EventController.php (2)
+in W:\html\yii\www\cdemo\index.php (13)
+2012/05/23 15:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dhtmlx".' in W:\html\yii\www\framework\web\CController.php:484
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(271): CController->missingAction('dhtmlx')
+#1 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('dhtmlx')
+#2 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/dhtmlx/gr...')
+#3 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/dhtmlx/grid/imgs/sort_desc.gif
+HTTP_REFERER=http://yii/cdemo/event/grid
+---
+2012/05/23 15:35:43 [error] [exception.CException] exception 'CException' with message 'EventController cannot find the requested view "grid_data".' in W:\html\yii\www\framework\web\CController.php:879
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(783): CController->renderPartial('grid_data', NULL, true)
+#1 W:\html\yii\www\cdemo\protected\controllers\EventController.php(14): CController->render('grid_data')
+#2 W:\html\yii\www\framework\web\actions\CInlineAction.php(50): EventController->actionGrid_data()
+#3 W:\html\yii\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 W:\html\yii\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 W:\html\yii\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('grid_data')
+#7 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/grid_data')
+#8 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/cdemo/event/grid_data
+---
+2012/05/23 15:38:56 [error] [exception.CException] exception 'CException' with message 'Property "Events.Events" is not defined.' in W:\html\yii\www\framework\base\CComponent.php:131
+Stack trace:
+#0 W:\html\yii\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('Events')
+#1 W:\html\yii\www\framework\base\CModel.php(593): CActiveRecord->__get('Events')
+#2 W:\html\yii\www\dhtmlx\connector\db_phpyii.php(21): CModel->offsetGet('Events')
+#3 W:\html\yii\www\dhtmlx\connector\base_connector.php(493): PHPYiiDBDataWrapper->select(Object(DataRequestConfig))
+#4 W:\html\yii\www\dhtmlx\connector\base_connector.php(478): Connector->get_resource()
+#5 W:\html\yii\www\cdemo\protected\controllers\EventController.php(16): Connector->render()
+#6 W:\html\yii\www\framework\web\actions\CInlineAction.php(50): EventController->actionGrid_data()
+#7 W:\html\yii\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 W:\html\yii\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 W:\html\yii\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('grid_data')
+#11 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/grid_data')
+#12 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/cdemo/event/grid_data
+---
+2012/05/23 15:42:59 [error] [exception.CException] exception 'CException' with message 'Property "Events.Events" is not defined.' in W:\html\yii\www\framework\base\CComponent.php:131
+Stack trace:
+#0 W:\html\yii\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('Events')
+#1 W:\html\yii\www\framework\base\CModel.php(593): CActiveRecord->__get('Events')
+#2 W:\html\yii\www\dhtmlx\connector\db_phpyii.php(21): CModel->offsetGet('Events')
+#3 W:\html\yii\www\dhtmlx\connector\base_connector.php(493): PHPYiiDBDataWrapper->select(Object(DataRequestConfig))
+#4 W:\html\yii\www\dhtmlx\connector\base_connector.php(478): Connector->get_resource()
+#5 W:\html\yii\www\cdemo\protected\controllers\EventController.php(16): Connector->render()
+#6 W:\html\yii\www\framework\web\actions\CInlineAction.php(50): EventController->actionGrid_data()
+#7 W:\html\yii\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 W:\html\yii\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 W:\html\yii\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('grid_data')
+#11 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/grid_data')
+#12 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/cdemo/event/grid_data
+---
+2012/05/23 15:47:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dhtmlx".' in W:\html\yii\www\framework\web\CController.php:484
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(271): CController->missingAction('dhtmlx')
+#1 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('dhtmlx')
+#2 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/dhtmlx/gr...')
+#3 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/dhtmlx/grid/imgs/sort_desc.gif
+HTTP_REFERER=http://yii/cdemo/event/grid
+---
+2012/05/23 15:50:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dhtmlx".' in W:\html\yii\www\framework\web\CController.php:484
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(271): CController->missingAction('dhtmlx')
+#1 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('dhtmlx')
+#2 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/dhtmlx/gr...')
+#3 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/dhtmlx/grid/imgs/sort_desc.gif
+HTTP_REFERER=http://yii/cdemo/event/grid
+---
+2012/05/23 15:55:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dhtmlx".' in W:\html\yii\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('dhtmlx')
+#1 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cdemo/dhtmlx/
+---
+2012/05/23 15:55:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dhtmlx".' in W:\html\yii\www\framework\web\CController.php:484
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(271): CController->missingAction('dhtmlx')
+#1 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('dhtmlx')
+#2 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/dhtmlx/gr...')
+#3 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/dhtmlx/grid/imgs/sort_desc.gif
+HTTP_REFERER=http://yii/cdemo/event/grid
+---
+2012/05/23 15:55:35 [error] [exception.CException] exception 'CException' with message 'EventController cannot find the requested view "scheduler_data".' in W:\html\yii\www\framework\web\CController.php:879
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(783): CController->renderPartial('scheduler_data', NULL, true)
+#1 W:\html\yii\www\cdemo\protected\controllers\EventController.php(38): CController->render('scheduler_data')
+#2 W:\html\yii\www\framework\web\actions\CInlineAction.php(50): EventController->actionScheduler_data()
+#3 W:\html\yii\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 W:\html\yii\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 W:\html\yii\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('scheduler_data')
+#7 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/scheduler...')
+#8 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/cdemo/event/scheduler_data?timeshift=-180
+HTTP_REFERER=http://yii/cdemo/event/scheduler
+---
+2012/05/23 15:56:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scheduler_data".' in W:\html\yii\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('scheduler_data')
+#1 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cdemo/scheduler_data?timeshift=-180
+HTTP_REFERER=http://yii/cdemo/event/scheduler
+---
+2012/05/23 15:56:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scheduler_data".' in W:\html\yii\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('scheduler_data')
+#1 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cdemo/scheduler_data?timeshift=-180
+HTTP_REFERER=http://yii/cdemo/event/scheduler
+---
+2012/05/23 15:56:46 [error] [exception.CException] exception 'CException' with message 'EventController cannot find the requested view "scheduler_data".' in W:\html\yii\www\framework\web\CController.php:879
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(783): CController->renderPartial('scheduler_data', NULL, true)
+#1 W:\html\yii\www\cdemo\protected\controllers\EventController.php(38): CController->render('scheduler_data')
+#2 W:\html\yii\www\framework\web\actions\CInlineAction.php(50): EventController->actionScheduler_data()
+#3 W:\html\yii\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 W:\html\yii\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 W:\html\yii\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('scheduler_data')
+#7 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/scheduler...')
+#8 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/cdemo/event/scheduler_data?timeshift=-180
+HTTP_REFERER=http://yii/cdemo/event/scheduler
+---
+2012/05/23 15:57:44 [error] [php] include(SchedulerConnector.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (W:\html\yii\www\framework\YiiBase.php:418)
+Stack trace:
+#0 W:\html\yii\www\cdemo\protected\controllers\EventController.php(31): spl_autoload_call()
+#1 W:\html\yii\www\framework\web\actions\CInlineAction.php(50): EventController->actionScheduler_data()
+#2 W:\html\yii\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 W:\html\yii\www\framework\web\CController.php(287): EventController->runAction()
+#4 W:\html\yii\www\framework\web\CController.php(266): EventController->runActionWithFilters()
+#5 W:\html\yii\www\framework\web\CWebApplication.php(276): EventController->run()
+#6 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#7 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 W:\html\yii\www\cdemo\index.php(13): CWebApplication->run()
+REQUEST_URI=/cdemo/event/scheduler_data?timeshift=-180
+in W:\html\yii\www\cdemo\protected\controllers\EventController.php (31)
+in W:\html\yii\www\cdemo\index.php (13)
+2012/05/23 16:45:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "data".' in W:\html\yii\www\framework\web\CController.php:484
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(271): CController->missingAction('data')
+#1 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('data')
+#2 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/data')
+#3 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/data
+HTTP_REFERER=http://yii/cdemo/event/grid
+---
+2012/05/23 16:45:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dhtmlx".' in W:\html\yii\www\framework\web\CController.php:484
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(271): CController->missingAction('dhtmlx')
+#1 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('dhtmlx')
+#2 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/dhtmlx/gr...')
+#3 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/dhtmlx/grid/imgs/sort_desc.gif
+HTTP_REFERER=http://yii/cdemo/event/grid
+---
+2012/05/23 16:45:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dhtmlx".' in W:\html\yii\www\framework\web\CController.php:484
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(271): CController->missingAction('dhtmlx')
+#1 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('dhtmlx')
+#2 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/dhtmlx/gr...')
+#3 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/dhtmlx/grid/imgs/sort_desc.gif
+HTTP_REFERER=http://yii/cdemo/event/grid
+---
+2012/05/23 16:45:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "data".' in W:\html\yii\www\framework\web\CController.php:484
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(271): CController->missingAction('data')
+#1 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('data')
+#2 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/data')
+#3 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/data?editing=true
+HTTP_REFERER=http://yii/cdemo/event/grid
+---
+2012/05/23 16:45:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dhtmlx".' in W:\html\yii\www\framework\web\CController.php:484
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(271): CController->missingAction('dhtmlx')
+#1 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('dhtmlx')
+#2 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/dhtmlx/gr...')
+#3 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/dhtmlx/grid/imgs/sort_desc.gif
+HTTP_REFERER=http://yii/cdemo/event/grid
+---
+2012/05/23 16:46:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dhtmlx".' in W:\html\yii\www\framework\web\CController.php:484
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(271): CController->missingAction('dhtmlx')
+#1 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('dhtmlx')
+#2 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/dhtmlx/gr...')
+#3 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/dhtmlx/grid/imgs/sort_desc.gif
+HTTP_REFERER=http://yii/cdemo/event/grid
+---
+2012/05/23 16:46:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dhtmlx".' in W:\html\yii\www\framework\web\CController.php:484
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(271): CController->missingAction('dhtmlx')
+#1 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('dhtmlx')
+#2 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/dhtmlx/gr...')
+#3 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/dhtmlx/grid/imgs/sort_desc.gif
+HTTP_REFERER=http://yii/cdemo/event/grid
+---
+2012/05/23 19:07:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dhtmlx".' in W:\html\yii\www\framework\web\CController.php:484
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(271): CController->missingAction('dhtmlx')
+#1 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('dhtmlx')
+#2 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/dhtmlx/gr...')
+#3 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/dhtmlx/grid/imgs/sort_desc.gif
+HTTP_REFERER=http://yii/cdemo/event/grid
+---
+2012/05/23 19:12:04 [error] [exception.CException] exception 'CException' with message 'EventController cannot find the requested view "index".' in W:\html\yii\www\framework\web\CController.php:879
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#1 W:\html\yii\www\cdemo\protected\controllers\EventController.php(22): CController->render('index')
+#2 W:\html\yii\www\framework\web\actions\CInlineAction.php(50): EventController->actionIndex()
+#3 W:\html\yii\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 W:\html\yii\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 W:\html\yii\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('')
+#7 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#8 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/cdemo/
+HTTP_REFERER=http://yii/
+---
+2012/05/23 19:13:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dhtmlx".' in W:\html\yii\www\framework\web\CController.php:484
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(271): CController->missingAction('dhtmlx')
+#1 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('dhtmlx')
+#2 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/dhtmlx/gr...')
+#3 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/dhtmlx/grid/imgs/sort_desc.gif
+HTTP_REFERER=http://yii/cdemo/event/grid
+---
+2012/05/23 19:13:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dhtmlx".' in W:\html\yii\www\framework\web\CController.php:484
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(271): CController->missingAction('dhtmlx')
+#1 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('dhtmlx')
+#2 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/dhtmlx/gr...')
+#3 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/dhtmlx/grid/imgs/sort_desc.gif
+HTTP_REFERER=http://yii/cdemo/event/grid
+---
+2012/05/23 19:14:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dhtmlx".' in W:\html\yii\www\framework\web\CController.php:484
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(271): CController->missingAction('dhtmlx')
+#1 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('dhtmlx')
+#2 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/dhtmlx/gr...')
+#3 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/dhtmlx/grid/imgs/sort_desc.gif
+HTTP_REFERER=http://yii/cdemo/event/grid
+---
+2012/05/23 19:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dhtmlx".' in W:\html\yii\www\framework\web\CController.php:484
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(271): CController->missingAction('dhtmlx')
+#1 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('dhtmlx')
+#2 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/dhtmlx/gr...')
+#3 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/dhtmlx/grid/imgs/sort_desc.gif
+HTTP_REFERER=http://yii/cdemo/event/grid
+---
+2012/05/23 19:14:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dhtmlx".' in W:\html\yii\www\framework\web\CController.php:484
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(271): CController->missingAction('dhtmlx')
+#1 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('dhtmlx')
+#2 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/dhtmlx/gr...')
+#3 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/dhtmlx/grid/imgs/sort_desc.gif
+HTTP_REFERER=http://yii/cdemo/event/grid
+---
+2012/05/23 19:47:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dhtmlx".' in W:\html\yii\www\framework\web\CController.php:484
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(271): CController->missingAction('dhtmlx')
+#1 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('dhtmlx')
+#2 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/dhtmlx/gr...')
+#3 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/dhtmlx/grid/imgs/sort_desc.gif
+HTTP_REFERER=http://yii/cdemo/event/grid
+---
+2012/05/30 13:01:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dhtmlx".' in W:\html\yii\www\framework\web\CController.php:484
+Stack trace:
+#0 W:\html\yii\www\framework\web\CController.php(271): CController->missingAction('dhtmlx')
+#1 W:\html\yii\www\framework\web\CWebApplication.php(276): CController->run('dhtmlx')
+#2 W:\html\yii\www\framework\web\CWebApplication.php(135): CWebApplication->runController('event/dhtmlx/gr...')
+#3 W:\html\yii\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 W:\html\yii\www\cdemo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/dhtmlx/grid/imgs/sort_desc.gif
+HTTP_REFERER=http://yii/cdemo/event/grid
+---
+2014/11/15 22:20:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.251' (113)' in /var/www/html/frontend/www-dev/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/frontend/www-dev/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Events))
+#7 /var/www/html/frontend/www-dev/cdemo/protected/models/Events.php(22): CActiveRecord::model('Events')
+#8 /var/www/html/frontend/www-dev/cdemo/protected/controllers/EventController.php(32): Events::model()
+#9 /var/www/html/frontend/www-dev/framework/web/actions/CInlineAction.php(50): EventController->actionScheduler_data()
+#10 /var/www/html/frontend/www-dev/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/frontend/www-dev/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/frontend/www-dev/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('scheduler_data')
+#14 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/scheduler...')
+#15 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/cdemo/event/scheduler_data?timeshift=-420
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/scheduler
+---
+2014/11/15 22:21:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.251' (4)' in /var/www/html/frontend/www-dev/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/frontend/www-dev/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Events))
+#7 /var/www/html/frontend/www-dev/cdemo/protected/models/Events.php(22): CActiveRecord::model('Events')
+#8 /var/www/html/frontend/www-dev/cdemo/protected/controllers/EventController.php(32): Events::model()
+#9 /var/www/html/frontend/www-dev/framework/web/actions/CInlineAction.php(50): EventController->actionScheduler_data()
+#10 /var/www/html/frontend/www-dev/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/frontend/www-dev/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/frontend/www-dev/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('scheduler_data')
+#14 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/scheduler...')
+#15 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/cdemo/event/scheduler_data?editing=true
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/scheduler
+---
+2014/11/15 22:21:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.251' (4)' in /var/www/html/frontend/www-dev/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/frontend/www-dev/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Events))
+#7 /var/www/html/frontend/www-dev/cdemo/protected/models/Events.php(22): CActiveRecord::model('Events')
+#8 /var/www/html/frontend/www-dev/cdemo/protected/controllers/EventController.php(32): Events::model()
+#9 /var/www/html/frontend/www-dev/framework/web/actions/CInlineAction.php(50): EventController->actionScheduler_data()
+#10 /var/www/html/frontend/www-dev/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/frontend/www-dev/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/frontend/www-dev/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('scheduler_data')
+#14 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/scheduler...')
+#15 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/cdemo/event/scheduler_data?editing=true
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/scheduler
+---
+2014/11/15 22:21:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dhtmlx".' in /var/www/html/frontend/www-dev/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/web/CController.php(271): CController->missingAction('dhtmlx')
+#1 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('dhtmlx')
+#2 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/dhtmlx/gr...')
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cdemo/event/dhtmlx/grid/imgs/sort_desc.gif
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/grid
+---
+2014/11/15 22:22:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.251' (4)' in /var/www/html/frontend/www-dev/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/frontend/www-dev/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Events))
+#7 /var/www/html/frontend/www-dev/cdemo/protected/models/Events.php(22): CActiveRecord::model('Events')
+#8 /var/www/html/frontend/www-dev/cdemo/protected/controllers/EventController.php(15): Events::model()
+#9 /var/www/html/frontend/www-dev/framework/web/actions/CInlineAction.php(50): EventController->actionGrid_data()
+#10 /var/www/html/frontend/www-dev/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/frontend/www-dev/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/frontend/www-dev/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('grid_data')
+#14 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/grid_data')
+#15 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/cdemo/event/grid_data
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/grid
+---
+2014/11/15 22:22:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.251' (4)' in /var/www/html/frontend/www-dev/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/frontend/www-dev/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Events))
+#7 /var/www/html/frontend/www-dev/cdemo/protected/models/Events.php(22): CActiveRecord::model('Events')
+#8 /var/www/html/frontend/www-dev/cdemo/protected/controllers/EventController.php(15): Events::model()
+#9 /var/www/html/frontend/www-dev/framework/web/actions/CInlineAction.php(50): EventController->actionGrid_data()
+#10 /var/www/html/frontend/www-dev/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/frontend/www-dev/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/frontend/www-dev/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('grid_data')
+#14 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/grid_data')
+#15 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/cdemo/event/grid_data?editing=true
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/grid
+---
+2014/11/15 22:22:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.251' (4)' in /var/www/html/frontend/www-dev/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/frontend/www-dev/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Events))
+#7 /var/www/html/frontend/www-dev/cdemo/protected/models/Events.php(22): CActiveRecord::model('Events')
+#8 /var/www/html/frontend/www-dev/cdemo/protected/controllers/EventController.php(15): Events::model()
+#9 /var/www/html/frontend/www-dev/framework/web/actions/CInlineAction.php(50): EventController->actionGrid_data()
+#10 /var/www/html/frontend/www-dev/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/frontend/www-dev/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/frontend/www-dev/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('grid_data')
+#14 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/grid_data')
+#15 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/cdemo/event/grid_data?editing=true
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/grid
+---
+2014/11/15 22:22:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.251' (4)' in /var/www/html/frontend/www-dev/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/frontend/www-dev/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Events))
+#7 /var/www/html/frontend/www-dev/cdemo/protected/models/Events.php(22): CActiveRecord::model('Events')
+#8 /var/www/html/frontend/www-dev/cdemo/protected/controllers/EventController.php(15): Events::model()
+#9 /var/www/html/frontend/www-dev/framework/web/actions/CInlineAction.php(50): EventController->actionGrid_data()
+#10 /var/www/html/frontend/www-dev/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/frontend/www-dev/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/frontend/www-dev/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('grid_data')
+#14 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/grid_data')
+#15 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/cdemo/event/grid_data?editing=true
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/grid
+---
+2014/11/15 22:22:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.251' (4)' in /var/www/html/frontend/www-dev/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/frontend/www-dev/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Events))
+#7 /var/www/html/frontend/www-dev/cdemo/protected/models/Events.php(22): CActiveRecord::model('Events')
+#8 /var/www/html/frontend/www-dev/cdemo/protected/controllers/EventController.php(15): Events::model()
+#9 /var/www/html/frontend/www-dev/framework/web/actions/CInlineAction.php(50): EventController->actionGrid_data()
+#10 /var/www/html/frontend/www-dev/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/frontend/www-dev/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/frontend/www-dev/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('grid_data')
+#14 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/grid_data')
+#15 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/cdemo/event/grid_data?editing=true
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/grid
+---
+2014/11/15 22:22:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.251' (4)' in /var/www/html/frontend/www-dev/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/frontend/www-dev/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Events))
+#7 /var/www/html/frontend/www-dev/cdemo/protected/models/Events.php(22): CActiveRecord::model('Events')
+#8 /var/www/html/frontend/www-dev/cdemo/protected/controllers/EventController.php(15): Events::model()
+#9 /var/www/html/frontend/www-dev/framework/web/actions/CInlineAction.php(50): EventController->actionGrid_data()
+#10 /var/www/html/frontend/www-dev/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/frontend/www-dev/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/frontend/www-dev/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('grid_data')
+#14 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/grid_data')
+#15 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/cdemo/event/grid_data?editing=true
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/grid
+---
+2014/11/15 22:22:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.251' (113)' in /var/www/html/frontend/www-dev/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/frontend/www-dev/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Events))
+#7 /var/www/html/frontend/www-dev/cdemo/protected/models/Events.php(22): CActiveRecord::model('Events')
+#8 /var/www/html/frontend/www-dev/cdemo/protected/controllers/EventController.php(32): Events::model()
+#9 /var/www/html/frontend/www-dev/framework/web/actions/CInlineAction.php(50): EventController->actionScheduler_data()
+#10 /var/www/html/frontend/www-dev/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/frontend/www-dev/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/frontend/www-dev/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('scheduler_data')
+#14 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/scheduler...')
+#15 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/cdemo/event/scheduler_data?editing=true
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/scheduler
+---
+2014/11/15 22:22:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.251' (4)' in /var/www/html/frontend/www-dev/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/frontend/www-dev/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Events))
+#7 /var/www/html/frontend/www-dev/cdemo/protected/models/Events.php(22): CActiveRecord::model('Events')
+#8 /var/www/html/frontend/www-dev/cdemo/protected/controllers/EventController.php(15): Events::model()
+#9 /var/www/html/frontend/www-dev/framework/web/actions/CInlineAction.php(50): EventController->actionGrid_data()
+#10 /var/www/html/frontend/www-dev/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/frontend/www-dev/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/frontend/www-dev/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('grid_data')
+#14 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/grid_data')
+#15 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/cdemo/event/grid_data?editing=true
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/grid
+---
+2014/11/15 22:22:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.251' (4)' in /var/www/html/frontend/www-dev/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/frontend/www-dev/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Events))
+#7 /var/www/html/frontend/www-dev/cdemo/protected/models/Events.php(22): CActiveRecord::model('Events')
+#8 /var/www/html/frontend/www-dev/cdemo/protected/controllers/EventController.php(15): Events::model()
+#9 /var/www/html/frontend/www-dev/framework/web/actions/CInlineAction.php(50): EventController->actionGrid_data()
+#10 /var/www/html/frontend/www-dev/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/frontend/www-dev/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/frontend/www-dev/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('grid_data')
+#14 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/grid_data')
+#15 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/cdemo/event/grid_data?editing=true
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/grid
+---
+2014/11/15 22:22:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.251' (4)' in /var/www/html/frontend/www-dev/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/frontend/www-dev/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Events))
+#7 /var/www/html/frontend/www-dev/cdemo/protected/models/Events.php(22): CActiveRecord::model('Events')
+#8 /var/www/html/frontend/www-dev/cdemo/protected/controllers/EventController.php(32): Events::model()
+#9 /var/www/html/frontend/www-dev/framework/web/actions/CInlineAction.php(50): EventController->actionScheduler_data()
+#10 /var/www/html/frontend/www-dev/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/frontend/www-dev/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/frontend/www-dev/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('scheduler_data')
+#14 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/scheduler...')
+#15 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/cdemo/event/scheduler_data?timeshift=-420
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/scheduler
+---
+2014/11/15 22:22:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.251' (113)' in /var/www/html/frontend/www-dev/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/frontend/www-dev/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Events))
+#7 /var/www/html/frontend/www-dev/cdemo/protected/models/Events.php(22): CActiveRecord::model('Events')
+#8 /var/www/html/frontend/www-dev/cdemo/protected/controllers/EventController.php(32): Events::model()
+#9 /var/www/html/frontend/www-dev/framework/web/actions/CInlineAction.php(50): EventController->actionScheduler_data()
+#10 /var/www/html/frontend/www-dev/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/frontend/www-dev/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/frontend/www-dev/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('scheduler_data')
+#14 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/scheduler...')
+#15 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/cdemo/event/scheduler_data?editing=true
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/scheduler
+---
+2014/11/15 22:22:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.251' (4)' in /var/www/html/frontend/www-dev/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/frontend/www-dev/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Events))
+#7 /var/www/html/frontend/www-dev/cdemo/protected/models/Events.php(22): CActiveRecord::model('Events')
+#8 /var/www/html/frontend/www-dev/cdemo/protected/controllers/EventController.php(32): Events::model()
+#9 /var/www/html/frontend/www-dev/framework/web/actions/CInlineAction.php(50): EventController->actionScheduler_data()
+#10 /var/www/html/frontend/www-dev/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/frontend/www-dev/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/frontend/www-dev/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('scheduler_data')
+#14 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/scheduler...')
+#15 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/cdemo/event/scheduler_data?editing=true
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/scheduler
+---
+2014/11/15 22:23:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.251' (4)' in /var/www/html/frontend/www-dev/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/frontend/www-dev/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Events))
+#7 /var/www/html/frontend/www-dev/cdemo/protected/models/Events.php(22): CActiveRecord::model('Events')
+#8 /var/www/html/frontend/www-dev/cdemo/protected/controllers/EventController.php(32): Events::model()
+#9 /var/www/html/frontend/www-dev/framework/web/actions/CInlineAction.php(50): EventController->actionScheduler_data()
+#10 /var/www/html/frontend/www-dev/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/frontend/www-dev/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/frontend/www-dev/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('scheduler_data')
+#14 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/scheduler...')
+#15 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/cdemo/event/scheduler_data?editing=true
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/scheduler
+---
+2014/11/15 22:23:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.251' (4)' in /var/www/html/frontend/www-dev/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/frontend/www-dev/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Events))
+#7 /var/www/html/frontend/www-dev/cdemo/protected/models/Events.php(22): CActiveRecord::model('Events')
+#8 /var/www/html/frontend/www-dev/cdemo/protected/controllers/EventController.php(32): Events::model()
+#9 /var/www/html/frontend/www-dev/framework/web/actions/CInlineAction.php(50): EventController->actionScheduler_data()
+#10 /var/www/html/frontend/www-dev/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/frontend/www-dev/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/frontend/www-dev/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('scheduler_data')
+#14 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/scheduler...')
+#15 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/cdemo/event/scheduler_data?editing=true
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/scheduler
+---
+2014/11/15 22:23:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.251' (4)' in /var/www/html/frontend/www-dev/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/frontend/www-dev/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Events))
+#7 /var/www/html/frontend/www-dev/cdemo/protected/models/Events.php(22): CActiveRecord::model('Events')
+#8 /var/www/html/frontend/www-dev/cdemo/protected/controllers/EventController.php(32): Events::model()
+#9 /var/www/html/frontend/www-dev/framework/web/actions/CInlineAction.php(50): EventController->actionScheduler_data()
+#10 /var/www/html/frontend/www-dev/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/frontend/www-dev/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/frontend/www-dev/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('scheduler_data')
+#14 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/scheduler...')
+#15 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/cdemo/event/scheduler_data?editing=true
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/scheduler
+---
+2014/11/15 22:23:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.251' (4)' in /var/www/html/frontend/www-dev/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/frontend/www-dev/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/frontend/www-dev/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/frontend/www-dev/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/frontend/www-dev/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Events))
+#7 /var/www/html/frontend/www-dev/cdemo/protected/models/Events.php(22): CActiveRecord::model('Events')
+#8 /var/www/html/frontend/www-dev/cdemo/protected/controllers/EventController.php(32): Events::model()
+#9 /var/www/html/frontend/www-dev/framework/web/actions/CInlineAction.php(50): EventController->actionScheduler_data()
+#10 /var/www/html/frontend/www-dev/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/frontend/www-dev/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/frontend/www-dev/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(276): CController->run('scheduler_data')
+#14 /var/www/html/frontend/www-dev/framework/web/CWebApplication.php(135): CWebApplication->runController('event/scheduler...')
+#15 /var/www/html/frontend/www-dev/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /var/www/html/frontend/www-dev/cdemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/cdemo/event/scheduler_data?editing=true
+HTTP_REFERER=http://test.crmti.ru/cdemo/event/scheduler
+---
